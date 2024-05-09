@@ -1,0 +1,48 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5% 4%;
+
+  /* background-color: darkkhaki; */
+
+  /* background-color: #87CEEB; */
+  font-size: 3rem;
+}
+
+.nav-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-name {
+  font-family: Lobster Two, cursive;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.input-with-icon {
+  position: relative;
+  align-items: center;
+  display: inline-flex;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5rem;
+}
+
+input[type='text'] {
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+}
+
+.bxs-microphone {
+  margin-left: 10px;
+}
