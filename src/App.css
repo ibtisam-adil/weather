@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,4 +11,19 @@ html {
 
 body {
   background-color: #87cfeb62;
+  font-family: "Poppins", serif;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 4rem;
+}
+
+.home-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 5% 5%;
 }
