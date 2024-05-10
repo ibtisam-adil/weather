@@ -1,7 +1,6 @@
 import React from 'react';
 import './navbar.css';
 import { MdOutlineStackedLineChart } from 'react-icons/md';
-// import rain from '../../assets/rain.png';
 
 const Navbar = () => (
   <nav>
