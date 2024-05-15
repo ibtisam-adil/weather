@@ -1,11 +1,12 @@
 .home-city {
   align-items: center;
-  background-color: #a990d4;
+  background-color: #87cfeb97;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
+  font-size: 2.2rem;
 }
 
 .weather-detail {
@@ -14,5 +15,9 @@
 }
 
 .weather-logo {
-  height: 8rem;
+  height: 10rem;
+}
+
+.condition {
+  font-size: 1.4rem;
 }

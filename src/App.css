@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
 * {
   margin: 0;
@@ -11,7 +11,7 @@ html {
 
 body {
   background-color: #87cfeb62;
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
 }
 
 .heading {
@@ -24,6 +24,13 @@ body {
 .home-grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 0 5% 5%;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1279px) {
+  .home-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
