@@ -1,5 +1,7 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
+import { selectCity } from '../../redux/details/detailSlice';
 import './home.css';
 import clear from '../../assets/clear.png';
 import clouds from '../../assets/clouds.png';
@@ -29,13 +31,32 @@ const weatherImages = {
 
 const Home = () => {
   const weatherData = useSelector((state) => state.homeReducer.data);
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+
+  const ClickHandler = (weatherImage, city) => {
+    dispatch(selectCity({ weatherImage, city }));
+    navigate('/details');
+  };
+
   return (
     <>
       {weatherData.map((city) => {
         const weatherCondition = city.weather[0].main.toLowerCase();
         const weatherImage = weatherImages[weatherCondition];
         return (
-          <div className="home-city" key={city.id}>
+          <div
+            className="home-city"
+            key={city.id}
+            tabIndex={0}
+            onClick={() => ClickHandler(weatherImage, city)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                navigate('/details');
+              }
+            }}
+            role="button"
+          >
             <div className="weather-detail">
               <img
                 className="weather-logo"
