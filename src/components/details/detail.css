@@ -1,9 +1,5 @@
-.details-main {
-  height: 100vh;
-}
-
 .settingIcon {
-  padding: 1% 4%;
+  padding: 1% 5%;
   font-size: 4rem;
   margin-top: 4rem;
 }
@@ -53,7 +49,7 @@
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 1fr;
-  padding: 0 4%;
+  padding: 0 5%;
 }
 
 .humidity {

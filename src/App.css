@@ -30,7 +30,113 @@ body {
 
 /* MEDIA QUERIES */
 @media (max-width: 1279px) {
+  html {
+    font-size: 60%;
+  }
+
   .home-grid {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 57.5%;
+  }
+
+  .home-grid .home-city {
+    font-size: 2.3rem;
+  }
+
+  .heading {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+
+  body nav {
+    font-size: 2.7rem;
+  }
+
+  .nav-head .nav-name {
+    font-size: 3rem;
+  }
+
+  .input-with-icon input[type='text'] {
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 3rem;
+  }
+
+  .home-grid .home-city {
+    font-size: 2rem;
+    padding: 5px 10px;
+  }
+
+  .home-grid .weather-logo {
+    height: 7rem;
+  }
+
+  .detail-page .lower {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 52.5%;
+  }
+
+  body nav {
+    font-size: 2.5rem;
+  }
+
+  .nav-head .nav-name {
+    font-size: 2.7rem;
+  }
+
+  .input-with-icon input[type='text'] {
+    width: 130px;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .home-grid {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .home-grid .home-city {
+    width: 87%;
+    gap: 5rem;
+  }
+
+  .detail-page .settingIcon {
+    font-size: 3rem;
+  }
+
+  .detail-page .country-city {
+    font-size: 2.7rem;
+  }
+
+  .detail-page .temperature-details {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
+  .detail-page .lower-header {
+    font-size: 2.5rem;
+  }
+
+  .detail-page .Icons {
+    font-size: 3rem;
   }
 }
