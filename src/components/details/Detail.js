@@ -4,13 +4,27 @@ import { useSelector } from 'react-redux';
 import { WiHumidity } from 'react-icons/wi';
 import { RiWindyFill } from 'react-icons/ri';
 import { FaTachometerAlt, FaEye } from 'react-icons/fa';
+import { IoChevronBackCircleSharp } from 'react-icons/io5';
+import { useNavigate } from 'react-router-dom';
 
 const Detail = () => {
   const data = useSelector((state) => state.detailReducer.data);
+
+  const navigate = useNavigate();
+  // const location = useLocation();
+  // const isHomePage = location.pathname === '/';
+
+  const handleIconClick = () => {
+    navigate('/');
+  };
   return (
     <>
       {data && data.city ? (
         <div className="details-main">
+          <IoChevronBackCircleSharp
+            className="settingIcon"
+            onClick={handleIconClick}
+          />
           <div className="upper">
             <p className="country-city">
               {data.city.name}

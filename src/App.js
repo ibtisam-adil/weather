@@ -29,7 +29,7 @@ function App() {
               {!isLoading && !error && (
                 <>
                   <p className="heading">Popular Cities</p>
-                  <div className="grid">
+                  <div className="home-grid">
                     <Home />
                   </div>
                 </>
