@@ -1,10 +1,16 @@
 .details-main {
   height: 100vh;
-  background-color: rgba(3, 3, 3, 0.2);
+}
+
+.settingIcon {
+  padding: 1% 4%;
+  font-size: 4rem;
+  margin-top: 4rem;
 }
 
 .upper {
-  padding: 5% 10%;
+  padding: 1% 10% 5% 10%;
+  color: black;
 }
 
 .img-temp {
@@ -14,23 +20,20 @@
 }
 
 .details-image {
-  height: 8rem;
+  height: 14rem;
 }
 
 .country-city {
-  font-size: 1rem;
-  color: #e8e2f3;
+  font-size: 3.2rem;
 }
 
 .temperature-details {
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: bold;
-  color: #e8e2f3;
 }
 
 .condition-details {
-  font-size: 1.5rem;
-  color: #e8e2f3;
+  font-size: 2.5rem;
 }
 
 .temp-condition {
@@ -42,7 +45,15 @@
   text-align: center;
   padding-top: 40px;
   color: #fff;
-  font-size: 1rem;
+  font-size: 3.4rem;
+}
+
+.lower {
+  grid-gap: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 4%;
 }
 
 .humidity {
@@ -51,92 +62,22 @@
   padding: 30px;
   border: 1px solid white;
   justify-content: space-between;
-  background-color: rgba(3, 3, 3, 0.2);
+  background-color: #87cfeb97;
   border-radius: 10px;
+  color: black;
 }
 
 .lower-value {
-  font-size: 1rem;
-  color: #fff;
+  font-size: 2.1rem;
 }
 
 .lower-header {
-  color: #fff;
-  font-size: 1.5rem;
+  font-size: 3rem;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
 .Icons {
-  font-size: 1.5rem;
+  font-size: 4rem;
 }
-
-/*
-@media (max-width: 999px) {
-  .lower {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 0 2rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .details-image {
-    height: 8rem;
-  }
-
-  .country-city {
-    font-size: 2rem;
-  }
-
-  .temperature-details {
-    font-size: 4rem;
-  }
-
-  .no-data {
-    font-size: 2rem;
-  }
-
-  .lower-value {
-    font-size: 1.3rem;
-  }
-
-  .lower-header {
-    font-size: 1.6rem;
-  }
-
-  .Icons {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 1000px) {
-  .details-image {
-    height: 10rem;
-  }
-
-  .temperature-details {
-    font-size: 6rem;
-  }
-
-  .no-data {
-    font-size: 3rem;
-  }
-
-  .lower-value {
-    font-size: 1.5rem;
-  }
-
-  .lower-header {
-    font-size: 2rem;
-  }
-
-  .lower {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    padding: 0 4rem;
-  }
-} */

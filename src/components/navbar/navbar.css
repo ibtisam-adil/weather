@@ -3,10 +3,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1.5% 4%;
-
-  /* background-color: darkkhaki; */
-
-  /* background-color: #87CEEB; */
   font-size: 3rem;
 }
 
@@ -35,6 +31,7 @@ nav {
   top: 50%;
   transform: translateY(-50%);
   right: 5rem;
+  font-size: 2.5rem;
 }
 
 input[type='text'] {
