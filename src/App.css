@@ -29,6 +29,13 @@ body {
   padding-bottom: 2rem;
 }
 
+.error {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 3rem;
+  padding: 0 3.5%;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 1279px) {
   html {
