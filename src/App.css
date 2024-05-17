@@ -26,6 +26,14 @@ body {
   gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 5% 5%;
+  padding-bottom: 2rem;
+}
+
+.error {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 3rem;
+  padding: 0 3.5%;
 }
 
 /* MEDIA QUERIES */
@@ -138,5 +146,15 @@ body {
 
   .detail-page .Icons {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 50%;
+  }
+
+  .input-with-icon input[type='text'] {
+    width: 95px;
   }
 }

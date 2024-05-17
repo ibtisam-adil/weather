@@ -11,8 +11,6 @@ const Detail = () => {
   const data = useSelector((state) => state.detailReducer.data);
 
   const navigate = useNavigate();
-  // const location = useLocation();
-  // const isHomePage = location.pathname === '/';
 
   const handleIconClick = () => {
     navigate('/');
