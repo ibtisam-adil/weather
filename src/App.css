@@ -141,3 +141,13 @@ body {
     font-size: 3rem;
   }
 }
+
+@media (max-width: 425px) {
+  html {
+    font-size: 50%;
+  }
+
+  .input-with-icon input[type='text'] {
+    width: 95px;
+  }
+}
