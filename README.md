@@ -1,70 +1,143 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- TABLE OF CONTENTS -->
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-### `npm start`
+<!-- PROJECT DESCRIPTION -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 🎬 Weather App <a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Welcome to Weather360, a robust web application that offers precise weather information for cities worldwide. Weather360 enables you to effortlessly access up-to-date weather conditions, forecasts, and other pertinent details for any location across the globe. 
 
-### `npm test`
+## 🛠 Built With <a name="built-with"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-### `npm run build`
+<!-- LEARNING OBJECT -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Learning Objectives
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Utilize React documentation, components, props, hooks, and best practices.
+- Integrate React Router for seamless navigation.
+- Implement Redux for state management, including actions, reducers, and the store.
+- Conduct event handling and UI rendering in a React app.
+- Write unit tests with React Testing Library.
+- Apply CSS styling and HTML/CSS best practices.
+- Collaborate effectively through Gitflow and code reviews.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- Features -->
 
-### `npm run eject`
+### Key Features <a name="key-features"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> Describe between 1-3 key features of the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Current Weather Conditions**
+- **Hourly and Daily Forecasts**
+- **Interactive Maps**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<!-- FUTURE FEATURES -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔭 Future Features <a name="future-features"></a>
+- **Forecast: Get a detailed forecast for the next 7 days, with information on temperature, precipitation, and weather conditions.**
+- **Personalized Weather Alerts**
+- **Social Media Integration**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- LIVE DEMO -->
 
-### Code Splitting
+## 🚀 Live Demo <a name="Space Traveler"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[@SPACE_TRAVELER'S HUB](https://starfarerhub.netlify.app/)
 
-### Analyzing the Bundle Size
+This is live version of my SpaceTraveler project.you can click on this link to watch live demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Making a Progressive Web App
+<!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Advanced Configuration
+To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Prerequisites
 
-### Deployment
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Step 1: if you don't have git installed on your machine you can download it from [here](https://git-scm.com/downloads).
 
-### `npm run build` fails to minify
+Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`git clone https://github.com/ibtisam-adil/SpaceTraveller.git`
+
+Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
+
+Step 2: Locate the folder where you cloned your project to and open the `index.html` file in your browser to view your project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
+
+👤 **IBTISAM ADIL**
+
+- GitHub: [@ibtisam-adil](https://github.com/ibtisam-adil)
+- Twitter: [@ibtisam__adil](https://twitter.com/Ibtisam__adil)
+- LinkedIn: [@ibtisamadil](http://www.linkedin.com/in/ibtisamadil)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+**please show your support to improve my skills .this will help me to work hard**
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./license.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
