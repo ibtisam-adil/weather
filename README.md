@@ -75,9 +75,9 @@ Welcome to Weather360, a robust web application that offers precise weather info
 
 ## 🚀 Live Demo <a name="Space Traveler"></a>
 
-[@SPACE_TRAVELER'S HUB](https://starfarerhub.netlify.app/)
+[@Weather360](https://ibtisamweatherapp.netlify.app)
 
-This is live version of my SpaceTraveler project.you can click on this link to watch live demo
+This is live version of my Weather360 project.you can click on this link to watch live demo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
