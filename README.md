@@ -28,7 +28,7 @@
 
 # 🎬 Weather App <a name="about-project"></a>
 
-Welcome to Weather360, a robust web application that offers precise weather information for cities worldwide. Weather360 enables you to effortlessly access up-to-date weather conditions, forecasts, and other pertinent details for any location across the globe. 
+Welcome to Weather360, a robust web application that offers precise weather information for cities worldwide. Weather360 enables you to effortlessly access up-to-date weather conditions, forecasts, and other pertinent details for any location across the globe.
 
 ## 🛠 Built With <a name="built-with"></a>
 
